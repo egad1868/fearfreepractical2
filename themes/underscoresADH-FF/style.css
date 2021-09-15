@@ -42,6 +42,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 # Fonts
 --------------------------------------------------------------*/
@@ -431,7 +432,7 @@ input,
 select,
 optgroup,
 textarea {
-	color: #3a4c58;
+	color: #425563!important;
 	font-family: 'Poppins', sans-serif;
   	font-weight: 400;
 	font-size: 16px;
@@ -665,20 +666,20 @@ textarea {
     padding: 12px 50px!important;
     color: #3a4c58!important;
 }
-#menu-item-99 {
-	background-image: url(http://fearfreepractical.local/wp-content/uploads/2021/09/bag.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-left: 4px solid #3a4c58;
+#menu-item-246 {
+	border-left: 4px solid #3a4c58;
     line-height: 10px!important;
-    padding: 0px 40px 50px 40px!important;
-	color: #ffffff!important;
+    padding: 10px 40px!important;
+}
+#menu-item-246 img {
+	width: 40px;
+	height:auto;
 }
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #3c4a58;
+	color: #425563;
 }
 
 a:visited {
@@ -1004,7 +1005,7 @@ figcaption {
     font-weight: 800;
 }
 .testimonial {
-	background-color: #3c4a58;
+	background-color: #425563;
 	border-radius: 10px;
 	color:#ffffff;
 	margin: 0 20px;
@@ -1031,10 +1032,12 @@ figcaption {
 
 .copyright {
 	font-size:11px;
-	color:#c4a58;
+	color:#425563;
 	opacity: 80%;
 	
 }
+
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -1061,7 +1064,22 @@ figcaption {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+.purchaseForm {
+	width: 75%;
+	margin: 30px auto;
+    padding: 15px;
+}
+/*.sub-header {
+	position: relative;
+    left: 30px;
+}
+.input-group-btn {
+	float:right;
+	width:15%;
+}
+.post-215 {
 
+}*/
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
